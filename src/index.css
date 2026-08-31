@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #102523;
+  background: #f5f0e8;
+}
+
+::selection {
+  background: #b79a68;
+  color: #102523;
+}
+
+.luxury-grid {
+  background-image:
+    linear-gradient(rgba(183,154,104,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(183,154,104,.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
